@@ -1,3 +1,9 @@
+Thinking:
+ek ek kr k check krenge jo character unequal ho usko count kr lenge.
+phir agar count even hai to (count/2) flips se string ek direction me ho jayegi nhi to 
+if odd count aata hai to count/2+1 flips needed hongi.
+
+	
 string s;
 	    cin>>s;
 	    int count=0;
