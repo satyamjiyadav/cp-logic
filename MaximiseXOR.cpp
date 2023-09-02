@@ -126,3 +126,19 @@ int main() {
 	return 0;
 }
 
+
+OR string method:
+
+	   string ans="";
+	   
+	   for(int j=0; j<n; j++){
+	      if(j<=minimum-1){
+	          ans+='1';
+	      }
+	      else{
+	          ans+='0';
+	      }
+	      cout<<ans[j];
+	   }
+	   
+
